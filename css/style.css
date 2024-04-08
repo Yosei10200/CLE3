@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 56px;
+    color: #9B57FF;
+}
+
+a {
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+
+.detailButton {
+    background-color: #9B57FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.detailButton:hover {
+    background-color: #2696D6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    padding-left: 100px;
+    width: 5%;
+}
+
+nav a:hover{
+    color: #36C1F6;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav div a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+#first {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    line-height: 61.6px;
+}
+
+#title {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#phone img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#phone {
+    width: 30%;
+}
+
+#map img{
+    width: 60%;
+    margin-top: 80px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about p{
+    margin-left: 150px;
+    font-size: 14px;
+    width: 40%;
+    text-align: center;
+}
+
+
+#about {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#about.visible {
+    opacity: 1;
+}
+
+
+#download {
+    background-color: #7E89AA;
+    display: flex;
+}
+
+#downloadText {
+    width: 100%;
+    margin-right: 13%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+#downloadText p {
+    font-size: 20px;
+}
+
+#downloadImg {
+    margin-top: 7%;
+    position: relative;
+}
+
+#downloadImg img {
+    width: 300px;
+}
+
+.downloadButton {
+    background-color: #6E789A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.downloadButton:hover {
+    background-color: #6E789F;
+}
+
+#phoneImg img {
+    width: 50%;
+}
+
+footer {
+    background-color: #323649;
+    padding: 20px;
+    color: #ffffff;
+}
+
+footer img{
+    filter: brightness(0) invert(1);
+
+}
+footer p {
+    margin: 0;
+
+}
+
+#socialMedia {
+    width: 30%;
+}
+
+#socialMedia img {
+    width: 7%;
+}
+
+#footerContainer {
+    display: flex;
+}
+
+#downloadImgs {
+    display: flex;
+}
+
+#cookies {
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+#cookies a {
+    margin-right: 20px;
+}
+
+.topHalf, .bottomHalf {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.topHalf {
+    top: 0;
+}
+
+.bottomHalf {
+    bottom: 0;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.algemeneVoorwaarden {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+        margin-left: 20px;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    nav div {
+        margin-right: 20px;
+    }
+
+    nav div a {
+        margin-right: 20px;
+    }
+
+    nav img {
+        width: 50px;
+    }
+
+    #phone img {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #phone {
+        width: 100%;
+    }
+
+    #about img {
+        width: 100%;
+    }
+
+    #about p{
+        width: 20px;
+    }
+    #downloadImg img {
+        width: 100%;
+        margin-top: 40%;
+    }
+
+    #phoneImg img {
+        width: 100%;
+    }
+
+    #downloadText {
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    #socialMedia {
+        width: 30%;
+    }
+
+    #socialMedia img {
+        width: 20%;
+    }
+
+    #download {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cookies {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    #cookies a {
+        margin-right: 0;
+    }
+
+    #map{
+        display: none;
+    }
+}
+
+
+/* detail page */
+
+.detailTitle{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#detailTitle{
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 50%;
+}
+.detail{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.detailPhone{
+    width: 60%;
+}
+.detailPhone img{
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 230px;
+}
+main{
+    background-color: #7E89AA;
+    margin: 0;
+}
+
+
+h6{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 0px;
+}
+.map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapDetail {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.detailMap {
+    width: 100%;
+    max-width: 200px;
+}
+
+.map h6 {
+    margin-top: 10px;
+}
+
+
+
+
+
