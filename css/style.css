@@ -11,7 +11,7 @@ p {
 
 h1 {
     font-family: "Nunito", sans-serif;
-    font-size: 56px;
+    font-size: 26px;
     color: #9B57FF;
 }
 
@@ -111,7 +111,7 @@ h1 {
 }
 
 #about p{
-    margin-left: 150px;
+    margin-left: 200px;
     font-size: 14px;
     width: 40%;
     text-align: center;
@@ -127,6 +127,21 @@ h1 {
     opacity: 1;
 }
 
+#accesibility img{
+    margin-left: 150px;
+}
+
+#location p{
+    margin-left: 0px;
+    width: 60%;
+}
+
+#location img{
+    margin-right: 140px;
+}
+#settings img{
+    margin-right: 30px;
+}
 
 #download {
     background-color: #7E89AA;
@@ -137,7 +152,7 @@ h1 {
     width: 100%;
     margin-right: 13%;
     margin-left: 10%;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 #downloadText p {
@@ -349,6 +364,7 @@ footer p {
 /* detail page */
 
 .detailTitle{
+    font-size: 56px;
     margin-top: 40px;
     margin-left: 20px;
 }
