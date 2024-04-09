@@ -6,9 +6,6 @@ window.addEventListener('load', function() {
     downloadButton.addEventListener('click', function() {
         console.log("Knop geklikt");
         if (typeof(Storage) !== "undefined") {
-            var currentPageUrl = window.location.href;
-            var currentPageTitle = document.title;
-            localStorage.setItem(currentPageUrl, currentPageTitle);
             alert("Pagina toegevoegd aan je homescherm");
         } else {
             alert("Error");
